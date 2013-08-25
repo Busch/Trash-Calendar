@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <?php include 'header.html'; ?>
-  </head>
 
 <!-- Javascript ================================================== -->
 
@@ -22,6 +21,8 @@
 </script>
 <!-- End Piwik Code -->
 
+  </head>
+
 <div class="container">
 
 <!-- Masthead ================================================== -->
@@ -31,7 +32,7 @@
 <section id="typography">
   <div class="row">
     <div class="span4">
-      <span style="color:#FF0000"><h3>Sorry...</h3></span>
+      <h3><span style="color:#FF0000">Sorry...</span></h3>
         <p>Es tut uns leid. Sie müssen diese Seite mit Ihrem iPhone, iPod oder iPad besuchen.</p>
         <p>Der Erinnerungsservice funktioniert (bisher) leider nur für iPod, iPhone und iPad.</p>
         <p>Windows Phone wird vermutlich ab 01.01.2014 unterstützt. Android ist leider nicht kompatibel.</p>

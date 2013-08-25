@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <?php include 'header.html'; ?>
-  </head>
 
 <!-- Javascript ================================================== -->
 
@@ -8112,6 +8111,7 @@ function Abbonieren() {
 }
 
 </script>
+</head>
 
 <div class="container">
 
