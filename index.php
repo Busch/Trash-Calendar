@@ -8203,8 +8203,8 @@ function Abbonieren() {
             </div>
           </div>
           <div class="control-group">
-            <button type="submit" onclick="Abbonieren();" id ="absenden" class="btn btn-primary input-block-level">Absenden</button>
-          <button type="submit" id ="abbonieren" class="btn btn-primary input-block-level"></button>
+            <button type="submit" onclick="Abbonieren();" id ="absenden" class="btn btn-primary btn-block">Absenden</button>
+          <button type="submit" id ="abbonieren" class="btn btn-primary btn-block"></button>
           </div>
         </fieldset>   
     </div>
