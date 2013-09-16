@@ -516,7 +516,7 @@
 		if ($gruenabfuhr == 1) { $postfix = $postfix . "a"; }
 
 		$url = "webcal://dav.datenschleuder.com/webcal/";
-		$file = $url . $bezirk . "_" . $strasse . "_" . $onetime_uid . "_" . $postfix . ".ics";
+		$file = $url . urlencode($bezirk) . "_" . urlencode($strasse) . "_" . $onetime_uid . "_" . $postfix . ".ics";
 		echo $file;
 
 	} // End function write_output()
