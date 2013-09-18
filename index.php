@@ -5901,7 +5901,7 @@ function doStreetList() {
   } // End if
 
 // ------------------------------------ BEGIN STADT ------------------------------------ //
- if (stadt == "Schwäbisch-Gmünd") {
+ if (stadt == "Schwäbisch_Gmünd") {
     streetlist = new Array(
 "Aalener-Strasse",
 "Achalmweg",
@@ -8172,7 +8172,7 @@ function Abbonieren() {
                 <option>Rosenberg</option>
                 <option>Ruppertshofen</option>
                 <option>Schechingen</option>
-                <option>Schwäbisch-Gmünd</option>
+                <option>Schwäbisch_Gmünd</option>
                 <option>Spraitbach</option>
                 <option>Stödtlen</option>
                 <option>Täferrot</option>
