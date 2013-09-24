@@ -8102,7 +8102,7 @@ function Abbonieren() {
   var ajax = getRequest();
   ajax.onreadystatechange = function(){
       if(ajax.readyState == 4){
-          document.getElementById('abbonieren').innerHTML = "<a href=" + ajax.responseText + "><b>Bestätigen</b></a>";
+          document.getElementById('abbonieren').innerHTML = "<a href=" + ajax.responseText + "><b>Zum Kalender hinzufügen</b></a>";
       }
   }
   ajax.open("GET", "script.php?bezirk=" + stadt + "&strasse=" + strasse + "&hausmuell=" + hausmuell + "&notify_hausmuell=13&gelbersack=" + gelbersack + "&notify_gelbersack=13&bioabfall=" + bioabfall + "&notify_bioabfall=13&blauetonne=" + blauetonne + "&notify_blauetonne=13&vereinssammlung=" + vereinssammlung + "&notify_vereinssammlung=13&gruenabfuhr=" + gruenabfuhr + "&notify_gruenabfuhr=13", true);
