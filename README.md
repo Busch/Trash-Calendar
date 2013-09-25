@@ -8,7 +8,7 @@ The code itself is too specific, so it isn`t much useful for others to adopt.
 
 A running live demo can be seen [here](https://dav.datenschleuder.com/).
 
-Currently supported devices are:
+Currently tested devices are:
 
 * Apple iPhone
 * Apple iPod
