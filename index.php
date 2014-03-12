@@ -8112,9 +8112,9 @@ function Abbonieren() {
   <div class="row">
     <div class="span4">
         <p>
-        <p>Dies <s>ist</s> <b>war</b> ein Erinnerungsservice für die GOA Müllabfuhr im Ostalbkreis.</p>
-        <p>Die GOA hat darauf verzichtet mein System für OSX, iPhone, iPod und iPad anzunehmen und hat stattdessen eines gekauft.</p>
-        <p>Müllkalender können von nun an hier abboniert werden: <a href="http://www.goa-online.de/abfuhrkalender/termine-auswahl.html">Klick</a></p>
+        <p>Dies <s>ist</s> war ein Erinnerungsservice für die GOA Müllabfuhr im Ostalbkreis.</p>
+        <p>Die GOA und das Landratsamt Aalen haben darauf verzichtet mein System kostenlos als Bürgerservice anzunehmen und haben sich stattdessen für ein teuer erkauftes System entschieden.</p>
+        <p>Müllkalender können von nun an hier abboniert werden: <a href="http://www.goa-online.de/abfuhrkalender/termine-auswahl.html" target="_blank">Klick</a></p>
     </div>
   </div>
 </section>
