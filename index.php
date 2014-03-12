@@ -21,17 +21,6 @@
 </script>
 <!-- End Piwik Code -->
 
-<!-- Browserweiche -->
-<script type="text/javascript">
-if((navigator.userAgent.match(/iPhone/i)) || 
-   (navigator.userAgent.match(/iPod/i)) || 
-   (navigator.userAgent.match(/iPad/i)) ||
-   (navigator.userAgent.match(/Googlebot/i)) ||
-   (navigator.userAgent.match(/Macintosh/i))) { /* NOP NOP... */ } else {
-   window.location = "https://dav.datenschleuder.com/not_compatible.php"; }
-</script>
-<!-- End Browserweiche -->
-
 <script type="text/javascript">
 
 window.onload = function() {
@@ -1084,7 +1073,7 @@ function doStreetList() {
 "Zum-Wallenteich",
 "Zur-Kapelle");
     for (var i = 0; i <= streetlist.length - 1; i++) {
-      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";  
+      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";
     }
     document.getElementById("Stadt").style.display = 'none';
     document.getElementById("stadt_text").style.display = 'none';
@@ -1371,7 +1360,7 @@ function doStreetList() {
 "Zimmerberg",
 "Zimmerbergmuehle");
     for (var i = 0; i <= streetlist.length - 1; i++) {
-      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";  
+      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";
     }
     document.getElementById("Stadt").style.display = 'none';
     document.getElementById("stadt_text").style.display = 'none';
@@ -1925,7 +1914,7 @@ function doStreetList() {
 "Zum-Handwald",
 "Zur-Glassaegmuehle");
     for (var i = 0; i <= streetlist.length - 1; i++) {
-      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";  
+      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";
     }
     document.getElementById("Stadt").style.display = 'none';
     document.getElementById("stadt_text").style.display = 'none';
@@ -2004,7 +1993,7 @@ function doStreetList() {
 "Vorderwald",
 "Wendenhof");
     for (var i = 0; i <= streetlist.length - 1; i++) {
-      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";  
+      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";
     }
     document.getElementById("Stadt").style.display = 'none';
     document.getElementById("stadt_text").style.display = 'none';
@@ -2087,7 +2076,7 @@ function doStreetList() {
 "Zum-Flugplatz",
 "Zum-Turnerheim");
     for (var i = 0; i <= streetlist.length - 1; i++) {
-      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";  
+      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";
     }
     document.getElementById("Stadt").style.display = 'none';
     document.getElementById("stadt_text").style.display = 'none';
@@ -2219,7 +2208,7 @@ function doStreetList() {
 "Windhof",
 "Zeisigweg");
     for (var i = 0; i <= streetlist.length - 1; i++) {
-      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";  
+      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";
     }
     document.getElementById("Stadt").style.display = 'none';
     document.getElementById("stadt_text").style.display = 'none';
@@ -2559,7 +2548,7 @@ function doStreetList() {
 "Zum-Geigerle",
 "Zur-Walkmuehle");
     for (var i = 0; i <= streetlist.length - 1; i++) {
-      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";  
+      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";
     }
     document.getElementById("Stadt").style.display = 'none';
     document.getElementById("stadt_text").style.display = 'none';
@@ -2682,7 +2671,7 @@ function doStreetList() {
 "Zimmerbach",
 "Zimmerbacher-Strasse");
     for (var i = 0; i <= streetlist.length - 1; i++) {
-      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";  
+      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";
     }
     document.getElementById("Stadt").style.display = 'none';
     document.getElementById("stadt_text").style.display = 'none';
@@ -2759,7 +2748,7 @@ function doStreetList() {
 "Ziegelhuette",
 "Zwiebelhof");
     for (var i = 0; i <= streetlist.length - 1; i++) {
-      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";  
+      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";
     }
     document.getElementById("Stadt").style.display = 'none';
     document.getElementById("stadt_text").style.display = 'none';
@@ -2851,7 +2840,7 @@ function doStreetList() {
 "Ziegelhuette",
 "Ziegelhuettenweg");
     for (var i = 0; i <= streetlist.length - 1; i++) {
-      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";  
+      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";
     }
     document.getElementById("Stadt").style.display = 'none';
     document.getElementById("stadt_text").style.display = 'none';
@@ -3059,7 +3048,7 @@ function doStreetList() {
 "Zum-Weinschenkerhof",
 "Zwetschgengaessle");
     for (var i = 0; i <= streetlist.length - 1; i++) {
-      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";  
+      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";
     }
     document.getElementById("Stadt").style.display = 'none';
     document.getElementById("stadt_text").style.display = 'none';
@@ -3255,7 +3244,7 @@ function doStreetList() {
 "Ziegelhuette",
 "Ziegelhuettenweg");
     for (var i = 0; i <= streetlist.length - 1; i++) {
-      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";  
+      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";
     }
     document.getElementById("Stadt").style.display = 'none';
     document.getElementById("stadt_text").style.display = 'none';
@@ -3341,7 +3330,7 @@ function doStreetList() {
 "Wasserturmweg",
 "Zum-Steingau");
     for (var i = 0; i <= streetlist.length - 1; i++) {
-      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";  
+      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";
     }
     document.getElementById("Stadt").style.display = 'none';
     document.getElementById("stadt_text").style.display = 'none';
@@ -3532,7 +3521,7 @@ function doStreetList() {
 "Zimmergasse",
 "Zollstock");
     for (var i = 0; i <= streetlist.length - 1; i++) {
-      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";  
+      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";
     }
     document.getElementById("Stadt").style.display = 'none';
     document.getElementById("stadt_text").style.display = 'none';
@@ -3598,7 +3587,7 @@ function doStreetList() {
 "Weilerfeld",
 "Zum-Asang");
     for (var i = 0; i <= streetlist.length - 1; i++) {
-      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";  
+      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";
     }
     document.getElementById("Stadt").style.display = 'none';
     document.getElementById("stadt_text").style.display = 'none';
@@ -3761,7 +3750,7 @@ function doStreetList() {
 "Wischauer-Strasse",
 "Zanken");
     for (var i = 0; i <= streetlist.length - 1; i++) {
-      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";  
+      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";
     }
     document.getElementById("Stadt").style.display = 'none';
     document.getElementById("stadt_text").style.display = 'none';
@@ -3839,7 +3828,7 @@ function doStreetList() {
 "Westerwiesenstrasse",
 "Zimmerner-Weg");
     for (var i = 0; i <= streetlist.length - 1; i++) {
-      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";  
+      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";
     }
     document.getElementById("Stadt").style.display = 'none';
     document.getElementById("stadt_text").style.display = 'none';
@@ -3942,7 +3931,7 @@ function doStreetList() {
 "Winterberg",
 "Wirtsweg");
     for (var i = 0; i <= streetlist.length - 1; i++) {
-      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";  
+      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";
     }
     document.getElementById("Stadt").style.display = 'none';
     document.getElementById("stadt_text").style.display = 'none';
@@ -4034,7 +4023,7 @@ function doStreetList() {
 "Ziegelhaeule",
 "Zum-Sonnenhof");
     for (var i = 0; i <= streetlist.length - 1; i++) {
-      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";  
+      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";
     }
     document.getElementById("Stadt").style.display = 'none';
     document.getElementById("stadt_text").style.display = 'none';
@@ -4168,7 +4157,7 @@ function doStreetList() {
 "Wolfsgrube",
 "Ziegelgarten");
     for (var i = 0; i <= streetlist.length - 1; i++) {
-      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";  
+      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";
     }
     document.getElementById("Stadt").style.display = 'none';
     document.getElementById("stadt_text").style.display = 'none';
@@ -4229,7 +4218,7 @@ function doStreetList() {
 "Zeppelinstrasse",
 "Ziegelwiesenweg");
     for (var i = 0; i <= streetlist.length - 1; i++) {
-      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";  
+      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";
     }
     document.getElementById("Stadt").style.display = 'none';
     document.getElementById("stadt_text").style.display = 'none';
@@ -4518,7 +4507,7 @@ function doStreetList() {
 "Zollgasse",
 "Zollplatz");
     for (var i = 0; i <= streetlist.length - 1; i++) {
-      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";  
+      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";
     }
     document.getElementById("Stadt").style.display = 'none';
     document.getElementById("stadt_text").style.display = 'none';
@@ -4630,7 +4619,7 @@ function doStreetList() {
 "Ziegelfeldstrasse",
 "Zimmereiweg");
     for (var i = 0; i <= streetlist.length - 1; i++) {
-      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";  
+      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";
     }
     document.getElementById("Stadt").style.display = 'none';
     document.getElementById("stadt_text").style.display = 'none';
@@ -4800,7 +4789,7 @@ function doStreetList() {
 "Wiesenstrasse",
 "Wildeck");
     for (var i = 0; i <= streetlist.length - 1; i++) {
-      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";  
+      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";
     }
     document.getElementById("Stadt").style.display = 'none';
     document.getElementById("stadt_text").style.display = 'none';
@@ -5093,7 +5082,7 @@ function doStreetList() {
 "Woermertorgasse",
 "Zinnbrunnenweg");
     for (var i = 0; i <= streetlist.length - 1; i++) {
-      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";  
+      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";
     }
     document.getElementById("Stadt").style.display = 'none';
     document.getElementById("stadt_text").style.display = 'none';
@@ -5204,7 +5193,7 @@ function doStreetList() {
 "Virngrundstrasse",
 "Ziegeleistrasse");
     for (var i = 0; i <= streetlist.length - 1; i++) {
-      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";  
+      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";
     }
     document.getElementById("Stadt").style.display = 'none';
     document.getElementById("stadt_text").style.display = 'none';
@@ -5242,7 +5231,7 @@ function doStreetList() {
 "Suhhaus",
 "Wahlenhalden");
     for (var i = 0; i <= streetlist.length - 1; i++) {
-      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";  
+      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";
     }
     document.getElementById("Stadt").style.display = 'none';
     document.getElementById("stadt_text").style.display = 'none';
@@ -5386,7 +5375,7 @@ function doStreetList() {
 "Wiesenweg",
 "Zeppelinweg");
     for (var i = 0; i <= streetlist.length - 1; i++) {
-      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";  
+      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";
     }
     document.getElementById("Stadt").style.display = 'none';
     document.getElementById("stadt_text").style.display = 'none';
@@ -5500,7 +5489,7 @@ function doStreetList() {
 "Westhausener-Strasse",
 "Wettegasse");
     for (var i = 0; i <= streetlist.length - 1; i++) {
-      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";  
+      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";
     }
     document.getElementById("Stadt").style.display = 'none';
     document.getElementById("stadt_text").style.display = 'none';
@@ -5586,7 +5575,7 @@ function doStreetList() {
 "Wirtsstrasse",
 "Zeppelinstrasse");
     for (var i = 0; i <= streetlist.length - 1; i++) {
-      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";  
+      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";
     }
     document.getElementById("Stadt").style.display = 'none';
     document.getElementById("stadt_text").style.display = 'none';
@@ -5708,7 +5697,7 @@ function doStreetList() {
 "Zollhof",
 "Zumholz");
     for (var i = 0; i <= streetlist.length - 1; i++) {
-      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";  
+      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";
     }
     document.getElementById("Stadt").style.display = 'none';
     document.getElementById("stadt_text").style.display = 'none';
@@ -5818,7 +5807,7 @@ function doStreetList() {
 "Wolfsmuehleweg",
 "Zum-Fuchsbau");
     for (var i = 0; i <= streetlist.length - 1; i++) {
-      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";  
+      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";
     }
     document.getElementById("Stadt").style.display = 'none';
     document.getElementById("stadt_text").style.display = 'none';
@@ -5892,7 +5881,7 @@ function doStreetList() {
 "Westerfeldstrasse",
 "Zeirenhof");
     for (var i = 0; i <= streetlist.length - 1; i++) {
-      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";  
+      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";
     }
     document.getElementById("Stadt").style.display = 'none';
     document.getElementById("stadt_text").style.display = 'none';
@@ -7084,7 +7073,7 @@ function doStreetList() {
 "Zwieklinge",
 "Zwiesig");
     for (var i = 0; i <= streetlist.length - 1; i++) {
-      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";  
+      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";
     }
     document.getElementById("Stadt").style.display = 'none';
     document.getElementById("stadt_text").style.display = 'none';
@@ -7199,7 +7188,7 @@ function doStreetList() {
 "Weggen-Ziegelhuette",
 "Zimmerbacher-Strasse");
     for (var i = 0; i <= streetlist.length - 1; i++) {
-      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";  
+      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";
     }
     document.getElementById("Stadt").style.display = 'none';
     document.getElementById("stadt_text").style.display = 'none';
@@ -7309,7 +7298,7 @@ function doStreetList() {
 "Ziegelhuette",
 "Ziegelstrasse");
     for (var i = 0; i <= streetlist.length - 1; i++) {
-      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";  
+      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";
     }
     document.getElementById("Stadt").style.display = 'none';
     document.getElementById("stadt_text").style.display = 'none';
@@ -7364,7 +7353,7 @@ function doStreetList() {
 "Utzstetten",
 "Wagaecker");
     for (var i = 0; i <= streetlist.length - 1; i++) {
-      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";  
+      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";
     }
     document.getElementById("Stadt").style.display = 'none';
     document.getElementById("stadt_text").style.display = 'none';
@@ -7426,7 +7415,7 @@ function doStreetList() {
 "Uhlandstrasse",
 "Wagnerstrasse");
     for (var i = 0; i <= streetlist.length - 1; i++) {
-      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";  
+      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";
     }
     document.getElementById("Stadt").style.display = 'none';
     document.getElementById("stadt_text").style.display = 'none';
@@ -7605,7 +7594,7 @@ function doStreetList() {
 "Zipplinger-Hofwiesen",
 "Zoebingen");
     for (var i = 0; i <= streetlist.length - 1; i++) {
-      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";  
+      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";
     }
     document.getElementById("Stadt").style.display = 'none';
     document.getElementById("stadt_text").style.display = 'none';
@@ -7795,7 +7784,7 @@ function doStreetList() {
 "Zur-Kapelle",
 "Zur-Vorstatt");
     for (var i = 0; i <= streetlist.length - 1; i++) {
-      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";  
+      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";
     }
     document.getElementById("Stadt").style.display = 'none';
     document.getElementById("stadt_text").style.display = 'none';
@@ -7970,7 +7959,7 @@ function doStreetList() {
 "Wischauer-Strasse",
 "Wolfertsweg");
     for (var i = 0; i <= streetlist.length - 1; i++) {
-      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";  
+      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";
     }
     document.getElementById("Stadt").style.display = 'none';
     document.getElementById("stadt_text").style.display = 'none';
@@ -8037,7 +8026,7 @@ function doStreetList() {
 "Werdlinstrasse",
 "Woert");
     for (var i = 0; i <= streetlist.length - 1; i++) {
-      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";  
+      document.getElementById('Strasse').innerHTML += "<option>" + streetlist[i] + "</option>";
     }
     document.getElementById("Stadt").style.display = 'none';
     document.getElementById("stadt_text").style.display = 'none';
@@ -8122,91 +8111,10 @@ function Abbonieren() {
 <section id="typography">
   <div class="row">
     <div class="span4">
-        <p>Dies ist ein Erinnerungsservice für die GOA Müllabfuhr im Ostalbkreis. Einfach den Bezirk und die Strasse auswählen, um die Abfuhrtermine in den Kalender zu importieren.</p>
-        <p>Die Kalenderdaten beinhalten die Hausmüllabfuhr, Gelber Sack, Bioabfall, Blaue Tonne, Grünabfuhr sowie die Altpapiersammlung der Vereine.</p>
-        <p>Aktuell sind alle Daten bis einschließlich 31.03.2014 enthalten - die Daten für die darauf folgenden Jahre werden automatisch mit eingepflegt, sobald diese von der GOA zur Verfügung gestellt werden. Eine Erinnerung erfolgt immer am vorherigen Tag um 18:00 Uhr.</p>
-    </div>
-  </div>
-</section>
-
-<!-- Forms ================================================== -->
-<section id="forms">
-  <div class="row">
-    <div class="span4">
-      <fieldset>
-        <div class="control-group">
-          <label class="control-label" for="select01" id="stadt_text"><b>Bezirk</b></label>
-            <div class="controls">
-              <select id="Stadt" onchange="doStreetList();" onfocus="this.selectedIndex = -1;">
-                <option>Bitte auswählen</option>
-                <option>Aalen</option>
-                <option>Abtsgmünd</option>
-                <option>Adelmannsfelden</option>
-                <option>Bartholomä</option>
-                <option>Böbingen</option>
-                <option>Bopfingen</option>
-                <option>Durlangen</option>
-                <option>Ellenberg</option>
-                <option>Ellwangen</option>
-                <option>Eschach</option>
-                <option>Essingen</option>
-                <option>Göggingen</option>
-                <option>Geschwend</option>
-                <option>Heubach</option>
-                <option>Heuchlingen</option>
-                <option>Hüttlingen</option>
-                <option>Iggingen</option>
-                <option>Jagstzell</option>
-                <option>Kirchheim</option>
-                <option>Lauchheim</option>
-                <option>Leinzell</option>
-                <option>Lorch</option>
-                <option>Mögglingen</option>
-                <option>Mutlangen</option>
-                <option>Neresheim</option>
-                <option>Neuler</option>
-                <option>Obergröningen</option>
-                <option>Oberkochen</option>
-                <option>Rainau</option>
-                <option>Riesbürg</option>
-                <option>Rosenberg</option>
-                <option>Ruppertshofen</option>
-                <option>Schechingen</option>
-                <option>Schwäbisch_Gmünd</option>
-                <option>Spraitbach</option>
-                <option>Stödtlen</option>
-                <option>Täferrot</option>
-                <option>Tannhausen</option>
-                <option>Unterschneidheim</option>
-                <option>Waldstetten</option>
-                <option>Westhausen</option>
-                <option>Wört</option>
-              </select>
-            </div>
-          </div>
-          <div class="control-group">
-            <label class="control-label" for="select01" id="strasse_text"><b>Strasse</b></label>
-              <div class="controls">
-                <select id="Strasse" onchange="disappear_streetlist();"></select>
-              </div>
-            </div>
-            <div class="control-group">
-              <label class="control-label" id="muellarten_text" for="optionsCheckbox"><b>Müllarten</b></label>
-            <div class="controls">
-              <label class="checkbox" id="hausmuell_text"><input type="checkbox" id="hausmuell" value="option1">Hausmüll</label>
-              <label class="checkbox" id="gelbersack_text"><input type="checkbox" id="gelbersack" value="option1">Gelber Sack</label>
-              <label class="checkbox" id="bioabfall_text"><input type="checkbox" id="bioabfall" value="option1">Bioabfall</label>
-              <label class="checkbox" id="blauetonne_text"><input type="checkbox" id="blauetonne" value="option1">Altpapier Blaue Tonne</label>
-              <label class="checkbox" id="vereinssammlung_text"><input type="checkbox" id="vereinssammlung" value="option1">Altpapier Vereinssammlung</label>
-              <label class="checkbox" id="gruenabfuhr_text"><input type="checkbox" id="gruenabfuhr" value="option1">Grünabfuhr</label>
-              <br>
-            </div>
-          </div>
-          <div class="control-group">
-            <button type="submit" onclick="Abbonieren();" id ="absenden" class="btn btn-primary btn-block">Absenden</button>
-          <button type="submit" id ="abbonieren" class="btn btn-primary btn-block"></button>
-          </div>
-        </fieldset>   
+        <p>
+        <p>Dies <s>ist</s> <b>war</b> ein Erinnerungsservice für die GOA Müllabfuhr im Ostalbkreis.</p>
+        <p>Die GOA hat darauf verzichtet mein System für OSX, iPhone, iPod und iPad anzunehmen und hat stattdessen eines gekauft.</p>
+        <p>Müllkalender können von nun an hier abboniert werden: <a href="http://www.goa-online.de/abfuhrkalender/termine-auswahl.html">Klick</a></p>
     </div>
   </div>
 </section>
