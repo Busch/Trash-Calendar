@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <?php include 'header.html'; ?>
+<head>
+  <?php include 'header.html'; ?>
 
 <!-- Javascript ================================================== -->
 
@@ -21,7 +21,7 @@
 </script>
 <!-- End Piwik Code -->
 
-  </head>
+</head>
 
 <div class="container">
 
@@ -32,10 +32,23 @@
 <section id="typography">
   <div class="row">
     <div class="span4">
-        <p>
-        <p>Dies <s>ist</s> war ein Erinnerungsservice für die GOA Müllabfuhr im Ostalbkreis.</p>
-        <p>Die GOA und das Landratsamt Aalen haben darauf verzichtet mein System kostenlos als Bürgerservice anzunehmen und haben sich stattdessen für ein teuer erkauftes System entschieden.</p>
-        <p>Müllkalender können von nun an hier abboniert werden: <a href="http://www.goa-online.de/abfuhrkalender/termine-auswahl.html" target="_blank">Klick</a></p>
+        <br>
+        <b>
+          <p>Dies war ein Erinnerungsservice für die GOA Müllabfuhr im Ostalbkreis.</p>
+          <p>Die GOA und das Landratsamt Aalen haben darauf verzichtet mein System als kostenlosen Bürgerservice anzunehmen und haben sich stattdessen für ein teuer erkauftes System entschieden.</p>
+        </b>
+
+        <p>Hinzu kommt, dass Sie durch das neue System diverse Nachteile in Kauf nehmen müssen. Dazu gehört u.a.:</p>
+        <ul>
+          <li>Sie können nur <b>alle</b> Müllarten auf einmal abonnieren</li>
+          <li>Sie haben <b>keine</b> Möglichkeit eine Erinnerung/Alarm einzustellen</li>
+          <li>Die Abfuhrtermine werden mit Ihren privaten Terminen vermischt</li>
+          <li>Von geänderten Abfuhrterminen müssen Sie sich wieder traditionell aus der Tageszeitung informieren</li>
+          <li>Der Kalender kann sich nicht automatisch erneuern und muss daher jedes Jahr aufs neue abonniert werden</li>
+          <li>Wenn Sie die Abfuhrtermine wieder los haben wollen müssen Sie <b>jeden einzelnen</b> Termin manuell aus Ihrem Endgerät entfernen</li>
+        </ul>
+        <br>
+        <p>Sie können sich <a href="http://www.goa-online.de/kontakt/kontakt.html" target="_blank">hier</a> bei der GOA hierfür herzlich bedanken. Der neue GOA Müllkalender kann <a href="http://www.goa-online.de/abfuhrkalender/termine-auswahl.html" target="_blank">hier</a> abonniert werden.</p>
     </div>
   </div>
 </section>
