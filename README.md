@@ -1,6 +1,7 @@
 Trash-Calendar
 ==============
 
+[![Build Status](https://travis-ci.org/Busch/Trash-Calendar-Ostalbkreis.png?branch=master)](https://travis-ci.org/Busch/Trash-Calendar-Ostalbkreis)
 
 This is a iCal generator - generating a trash-calendar in a german district called Ostalbkreis for every device that supports calDAV.
 
