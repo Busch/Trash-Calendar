@@ -2,4 +2,6 @@ language: php
 php:
   - 5.5
 
-script: build.sh
+chmod a+x .build.sh
+
+script: ./.build.sh
